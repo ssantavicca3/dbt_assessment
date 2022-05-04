@@ -1,0 +1,5 @@
+2022-05-04 17:22:02.210487 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-04 17:22:04.146588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-04 17:22:04.148606 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-04 17:22:04.151599 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-04 17:22:04.153593 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
