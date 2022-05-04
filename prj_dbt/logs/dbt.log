@@ -220,3 +220,24 @@ where id = 1
 17:22:09.802337 [info ] [MainThread]: 
 17:22:09.804332 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
 17:22:09.805328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8B0B012B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8B1BB1D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8B1F33AF0>]}
+
+
+============================== 2022-05-04 17:47:22.570341 | e1560568-14d5-4c5f-8b64-eaf19f44b233 ==============================
+17:47:22.570341 [info ] [MainThread]: Running with dbt=1.1.0
+17:47:22.571344 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\ssantavicca3\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+17:47:22.572343 [debug] [MainThread]: Tracking: tracking
+17:47:22.572343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F7334489A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733448A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733448A60>]}
+17:47:22.641182 [debug] [MainThread]: Partial parsing enabled: 3 files deleted, 0 files added, 0 files changed.
+17:47:22.642181 [debug] [MainThread]: Partial parsing: deleted file: prj_dbt://models\example\my_first_dbt_model.sql
+17:47:22.642181 [debug] [MainThread]: Partial parsing: deleted file: prj_dbt://models\example\my_second_dbt_model.sql
+17:47:22.646138 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.prj_dbt.example
+
+17:47:22.662126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e1560568-14d5-4c5f-8b64-eaf19f44b233', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733532F10>]}
+17:47:22.670095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e1560568-14d5-4c5f-8b64-eaf19f44b233', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733510EE0>]}
+17:47:22.671075 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+17:47:22.672071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e1560568-14d5-4c5f-8b64-eaf19f44b233', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733510E20>]}
+17:47:22.672071 [info ] [MainThread]: 
+17:47:22.673068 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+17:47:22.681047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F73351ED60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733510D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F733510DF0>]}
