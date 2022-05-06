@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  name: converted_comprehensive
+  columns:
+    - name: lead_id
+      description: Unique identifier of lead
+      tests:
+        - not_null
+        - unique
+    - name: source
+      description: Source of generated lead
+      tests:
+        - not_null
+    - name: job_title
+      description: Current occupation title of lead
+      tests:
+        - not_null
+    - name: state
+      description: Current state of residence of lead
+      tests:
+        - not_null
+    - name: industry
+      description: Current occupational industry of lead
+      tests:
+        - not_null
+    - name: fleet_size
+      description: Current fleet size (in predefined size bins)
+      tests:
+        - not_null
+    - name: is_closed
+      description: Binary indicator for whether lead was closed
+      tests:
+        - not_null
+    - name: is_won
+      description: Binary indicator for whether lead was won
+      tests:
+        - not_null
+    - name: month
+      description: Month of lead conversion (numeric; X/12)
+      tests:
+        - not_null
+    - name: week
+      description: Week of lead conversion (numeric; X/52)
+      tests:
+        - not_null
+    - name: day
+      description: Day of month of lead conversion (numeric; X/[28,31])
+      tests:
+        - not_null
+    - name: month_name
+      description: Month name of lead conversion (e.g., 'Apr')
+      tests:
+        - not_null
+    - name: day_name
+      description: Day name of lead conversion (e.g., 'Tue')
+      tests:
+        - not_null
