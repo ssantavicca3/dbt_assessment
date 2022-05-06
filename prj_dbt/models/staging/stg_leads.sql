@@ -1,11 +1,11 @@
 -- BASELINE TABLE
 
 select
-    id as "lead_id",
+    id as lead_id,
     case
         when converted_at is null then 0
         else 1
-    end as "is_converted",
+    end as is_converted,
     source,
     job_title,
     state,

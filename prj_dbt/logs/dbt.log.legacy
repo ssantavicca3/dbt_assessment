@@ -63,3 +63,96 @@
 2022-05-05 21:05:06.218090 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
 2022-05-05 21:05:08.439120 (ThreadPoolExecutor-0_0): unclosed <socket.socket fd=2788, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.176', 49880), raddr=('52.184.166.117', 443)>
 2022-05-06 14:21:38.822735 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 16:55:54.285930 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 16:58:16.555239 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 16:59:08.214863 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 16:59:09.660002 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.663992 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.668172 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.671161 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.674152 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.676357 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.680374 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.683371 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.686363 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.688352 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.691345 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.693339 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.696331 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.699326 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.702321 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.704310 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.707304 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.709299 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.713288 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:09.717487 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 16:59:13.275145 (Thread-1): unclosed <socket.socket fd=2864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.176', 59857), raddr=('52.184.166.117', 443)>
+2022-05-06 17:04:24.010021 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:04:25.326739 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.329731 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.331726 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.333721 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.335816 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.338840 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.340834 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:04:25.342829 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:37.417916 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:05:38.664104 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.667096 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.669091 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.672083 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.674077 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.677040 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.679064 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.682027 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.684051 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.687043 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.689038 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.692002 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.695021 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:05:38.697016 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:06:55.155990 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:08:36.785974 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:08:38.051532 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.054526 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.056522 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.058513 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.061505 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.063499 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.065494 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.067693 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.069687 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.072679 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:08:38.074674 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 17:10:08.540061 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:17:35.404775 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:22:09.684406 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:22:15.585960 (Thread-3): unclosed <socket.socket fd=2976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.176', 64258), raddr=('52.184.166.117', 443)>
+2022-05-06 17:23:15.770059 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:33:38.260908 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:38:35.957816 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 17:39:04.657143 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 18:00:50.274279 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 18:00:51.658417 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.661412 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.663404 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.665500 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.668522 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.670517 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.673510 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.675613 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.677640 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.680638 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:00:51.682625 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:27.651417 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-06 18:01:28.898566 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.900568 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.903565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.905657 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.907690 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.910684 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.912677 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.914672 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.917810 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.919805 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-06 18:01:28.921799 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.

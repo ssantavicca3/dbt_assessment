@@ -13,8 +13,13 @@ conversion_date as (
 )
 
 select
-    *
+    leads.lead_id,
     leads.source,
+    conversion_date.month,
+    conversion_date.week,
+    conversion_date.day,
+    conversion_date.month_name,
+    conversion_date.day_name
 from conversion_date
 left join leads
     using (lead_id)

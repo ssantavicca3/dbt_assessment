@@ -3,7 +3,7 @@ version: 2
 models:
   - name: stg_leads
     columns:
-      - name:
+      - name: lead_id
         description: Unique identifier of lead
         tests:
           - unique
@@ -11,7 +11,6 @@ models:
       - name: is_converted
         description: Binary indicator for whether lead was converted
         tests:
-          - not_null
       - name: source
         description: Source of generated lead
         tests:
@@ -59,7 +58,6 @@ models:
       - name: converted_at
         description: Exact timestamp auto-generated when conversion of lead confirmed
         tests:
-          - not_null
       - name: month
         description: Month of lead conversion (numeric; X/12)
         tests:
