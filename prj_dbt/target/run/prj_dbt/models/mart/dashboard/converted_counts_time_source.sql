@@ -2,7 +2,7 @@
   create or replace  view FLEETIO_DBT.CUSTOMERS.converted_counts_time_source
   
    as (
-    --
+    -- BUILT TO HELP VISUALZE Q1 AND Q2
 
 with leads as (
 

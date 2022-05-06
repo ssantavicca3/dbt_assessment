@@ -2,7 +2,7 @@
   create or replace  view FLEETIO_DBT.CUSTOMERS.converted_comprehensive
   
    as (
-    -- MODEL TO FACILITATE REGRESSION AND ML ANALYSES
+    -- MODEL TO FACILITATE REGRESSION AND ML ANALYSES; GENERATE INSIGHTS INTO Q3 AND Q4
 
 with leads as (
 

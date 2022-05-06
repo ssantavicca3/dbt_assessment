@@ -1,4 +1,4 @@
---
+-- BUILT TO HELP VISUALIZE Q4
 
 with opportunities as (
 
@@ -8,14 +8,19 @@ with opportunities as (
 
 leads as (
 
-  select *
+  select
+    lead_id,
+    source,
+    job_title,
+    state,
+    industry,
+    fleet_size
   from FLEETIO_DBT.CUSTOMERS.stg_leads
   where is_converted = 1
 
 )
 
-select
-  *
+select *
 from opportunities
 inner join leads
   using (lead_id)

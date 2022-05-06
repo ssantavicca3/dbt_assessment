@@ -1,6 +1,6 @@
 version: 2
 
-models:
+model:
   name: converted_comprehensive
   columns:
     - name: lead_id
