@@ -2,7 +2,6 @@
 
 select
     contacts.lead_id,
-    contacts.account_id,
     case
         when opportunities.is_closed = TRUE
             then 1

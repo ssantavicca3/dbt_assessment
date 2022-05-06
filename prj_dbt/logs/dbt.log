@@ -1563,3 +1563,279 @@ inner join opportunities
 20:10:10.516304 [info ] [MainThread]: 
 20:10:10.517301 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
 20:10:10.518301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB21C7940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB49A6F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB4CF64F0>]}
+
+
+============================== 2022-05-05 21:05:07.419934 | 09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0 ==============================
+21:05:07.419934 [info ] [MainThread]: Running with dbt=1.1.0
+21:05:07.420943 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\ssantavicca3\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+21:05:07.421928 [debug] [MainThread]: Tracking: tracking
+21:05:07.421928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349638970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3496389D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349638A30>]}
+21:05:07.535623 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+21:05:07.536622 [debug] [MainThread]: Partial parsing: added file: prj_dbt://models\count_converted_time_source.sql
+21:05:07.536622 [debug] [MainThread]: Partial parsing: added file: prj_dbt://models\count_converted_time.sql
+21:05:07.537618 [debug] [MainThread]: Partial parsing: updated file: prj_dbt://models\staging\stg_leads.sql
+21:05:07.538615 [debug] [MainThread]: Partial parsing: updated file: prj_dbt://models\staging\stg_opportunities.sql
+21:05:07.554574 [debug] [MainThread]: 1699: static parser successfully parsed count_converted_time_source.sql
+21:05:07.572556 [debug] [MainThread]: 1699: static parser successfully parsed count_converted_time.sql
+21:05:07.576711 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_leads.sql
+21:05:07.580700 [debug] [MainThread]: 1699: static parser successfully parsed staging\stg_opportunities.sql
+21:05:07.586927 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.prj_dbt.example
+
+21:05:07.595902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D34978A760>]}
+21:05:07.606873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349638F70>]}
+21:05:07.607871 [info ] [MainThread]: Found 5 models, 0 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics
+21:05:07.608868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349638F40>]}
+21:05:07.609869 [info ] [MainThread]: 
+21:05:07.610865 [debug] [MainThread]: Acquiring new snowflake connection "master"
+21:05:07.612858 [debug] [ThreadPool]: Acquiring new snowflake connection "list_FLEETIO_DBT"
+21:05:07.633803 [debug] [ThreadPool]: Using snowflake connection "list_FLEETIO_DBT"
+21:05:07.633803 [debug] [ThreadPool]: On list_FLEETIO_DBT: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "connection_name": "list_FLEETIO_DBT"} */
+
+    show terse schemas in database FLEETIO_DBT
+    limit 10000
+21:05:07.634798 [debug] [ThreadPool]: Opening a new connection, currently in state init
+21:05:08.378944 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.74 seconds
+21:05:08.380970 [debug] [ThreadPool]: On list_FLEETIO_DBT: Close
+21:05:08.763497 [debug] [ThreadPool]: Acquiring new snowflake connection "list_FLEETIO_DBT_CUSTOMERS"
+21:05:08.769700 [debug] [ThreadPool]: Using snowflake connection "list_FLEETIO_DBT_CUSTOMERS"
+21:05:08.769700 [debug] [ThreadPool]: On list_FLEETIO_DBT_CUSTOMERS: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "connection_name": "list_FLEETIO_DBT_CUSTOMERS"} */
+
+    show terse objects in FLEETIO_DBT.CUSTOMERS
+21:05:08.769700 [debug] [ThreadPool]: Opening a new connection, currently in state init
+21:05:09.464342 [debug] [ThreadPool]: SQL status: SUCCESS 13 in 0.69 seconds
+21:05:09.466337 [debug] [ThreadPool]: On list_FLEETIO_DBT_CUSTOMERS: Close
+21:05:09.581182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3497CA4F0>]}
+21:05:09.582182 [info ] [MainThread]: Concurrency: 10 threads (target='dev')
+21:05:09.583178 [info ] [MainThread]: 
+21:05:09.595150 [debug] [Thread-1  ]: Began running node model.prj_dbt.stg_conversion_date
+21:05:09.596142 [debug] [Thread-2  ]: Began running node model.prj_dbt.stg_leads
+21:05:09.596142 [debug] [Thread-3  ]: Began running node model.prj_dbt.stg_opportunities
+21:05:09.597170 [info ] [Thread-1  ]: 1 of 5 START view model CUSTOMERS.stg_conversion_date .......................... [RUN]
+21:05:09.597170 [info ] [Thread-2  ]: 2 of 5 START view model CUSTOMERS.stg_leads .................................... [RUN]
+21:05:09.598139 [info ] [Thread-3  ]: 3 of 5 START view model CUSTOMERS.stg_opportunities ............................ [RUN]
+21:05:09.600133 [debug] [Thread-1  ]: Acquiring new snowflake connection "model.prj_dbt.stg_conversion_date"
+21:05:09.601128 [debug] [Thread-2  ]: Acquiring new snowflake connection "model.prj_dbt.stg_leads"
+21:05:09.602126 [debug] [Thread-1  ]: Began compiling node model.prj_dbt.stg_conversion_date
+21:05:09.602126 [debug] [Thread-3  ]: Acquiring new snowflake connection "model.prj_dbt.stg_opportunities"
+21:05:09.603155 [debug] [Thread-2  ]: Began compiling node model.prj_dbt.stg_leads
+21:05:09.603155 [debug] [Thread-1  ]: Compiling model.prj_dbt.stg_conversion_date
+21:05:09.604122 [debug] [Thread-3  ]: Began compiling node model.prj_dbt.stg_opportunities
+21:05:09.604122 [debug] [Thread-2  ]: Compiling model.prj_dbt.stg_leads
+21:05:09.607113 [debug] [Thread-1  ]: Writing injected SQL for node "model.prj_dbt.stg_conversion_date"
+21:05:09.607113 [debug] [Thread-3  ]: Compiling model.prj_dbt.stg_opportunities
+21:05:09.609111 [debug] [Thread-2  ]: Writing injected SQL for node "model.prj_dbt.stg_leads"
+21:05:09.613097 [debug] [Thread-3  ]: Writing injected SQL for node "model.prj_dbt.stg_opportunities"
+21:05:09.614094 [debug] [Thread-1  ]: finished collecting timing info
+21:05:09.615091 [debug] [Thread-1  ]: Began executing node model.prj_dbt.stg_conversion_date
+21:05:09.616088 [debug] [Thread-2  ]: finished collecting timing info
+21:05:09.642019 [debug] [Thread-3  ]: finished collecting timing info
+21:05:09.663287 [debug] [Thread-1  ]: Writing runtime SQL for node "model.prj_dbt.stg_conversion_date"
+21:05:09.663287 [debug] [Thread-2  ]: Began executing node model.prj_dbt.stg_leads
+21:05:09.664285 [debug] [Thread-3  ]: Began executing node model.prj_dbt.stg_opportunities
+21:05:09.668274 [debug] [Thread-2  ]: Writing runtime SQL for node "model.prj_dbt.stg_leads"
+21:05:09.673260 [debug] [Thread-3  ]: Writing runtime SQL for node "model.prj_dbt.stg_opportunities"
+21:05:09.674258 [debug] [Thread-1  ]: Using snowflake connection "model.prj_dbt.stg_conversion_date"
+21:05:09.675255 [debug] [Thread-1  ]: On model.prj_dbt.stg_conversion_date: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "node_id": "model.prj_dbt.stg_conversion_date"} */
+
+  create or replace  view FLEETIO_DBT.CUSTOMERS.stg_conversion_date
+  
+   as (
+    -- DATE/TIME GRAINS TABLE
+
+select
+    ID as lead_id,
+    converted_at,
+    date_part('month', converted_at) as "month",
+    date_part('week', converted_at) as "week",
+    date_part('day', converted_at) as "day",
+    to_char(converted_at, 'Mon') as month_name,
+    to_char(converted_at, 'Dy') as day_name
+from leads
+where converted_at is not null
+  );
+21:05:09.676254 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+21:05:09.679244 [debug] [Thread-2  ]: Using snowflake connection "model.prj_dbt.stg_leads"
+21:05:09.681239 [debug] [Thread-2  ]: On model.prj_dbt.stg_leads: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "node_id": "model.prj_dbt.stg_leads"} */
+
+  create or replace  view FLEETIO_DBT.CUSTOMERS.stg_leads
+  
+   as (
+    -- BASELINE TABLE
+
+select
+    id as lead_id,
+    case
+        when converted_at is null then 0
+        else 1
+    end as is_converted,
+    source,
+    job_title,
+    state,
+    industry,
+    fleet_size
+from leads
+  );
+21:05:09.682237 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+21:05:09.684230 [debug] [Thread-3  ]: Using snowflake connection "model.prj_dbt.stg_opportunities"
+21:05:09.687223 [debug] [Thread-3  ]: On model.prj_dbt.stg_opportunities: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "node_id": "model.prj_dbt.stg_opportunities"} */
+
+  create or replace  view FLEETIO_DBT.CUSTOMERS.stg_opportunities
+  
+   as (
+    -- OPPORTUNITIES-BASED TABLE
+
+select
+    contacts.lead_id,
+    case
+        when opportunities.is_closed = TRUE
+            then 1
+            else 0
+        end as "is_closed",
+    case
+        when opportunities.is_won = TRUE
+            then 1
+            else 0
+        end as "is_won"
+from leads
+inner join contacts
+    on leads.id = contacts.lead_id
+inner join opportunities
+    using (account_id)
+  );
+21:05:09.688220 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+21:05:10.652435 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 0.97 seconds
+21:05:10.660380 [debug] [Thread-2  ]: finished collecting timing info
+21:05:10.662374 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 0.97 seconds
+21:05:10.663395 [debug] [Thread-2  ]: On model.prj_dbt.stg_leads: Close
+21:05:10.665366 [debug] [Thread-3  ]: finished collecting timing info
+21:05:10.668391 [debug] [Thread-3  ]: On model.prj_dbt.stg_opportunities: Close
+21:05:10.761734 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349B25B20>]}
+21:05:10.762732 [info ] [Thread-2  ]: 2 of 5 OK created view model CUSTOMERS.stg_leads ............................... [[32mSUCCESS 1[0m in 1.16s]
+21:05:10.763735 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.09 seconds
+21:05:10.767752 [debug] [Thread-1  ]: finished collecting timing info
+21:05:10.767752 [debug] [Thread-2  ]: Finished running node model.prj_dbt.stg_leads
+21:05:10.768718 [debug] [Thread-1  ]: On model.prj_dbt.stg_conversion_date: Close
+21:05:10.769716 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349959430>]}
+21:05:10.770713 [info ] [Thread-3  ]: 3 of 5 OK created view model CUSTOMERS.stg_opportunities ....................... [[32mSUCCESS 1[0m in 1.17s]
+21:05:10.772707 [debug] [Thread-3  ]: Finished running node model.prj_dbt.stg_opportunities
+21:05:10.895399 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3499BC970>]}
+21:05:10.896398 [info ] [Thread-1  ]: 1 of 5 OK created view model CUSTOMERS.stg_conversion_date ..................... [[32mSUCCESS 1[0m in 1.30s]
+21:05:10.898371 [debug] [Thread-1  ]: Finished running node model.prj_dbt.stg_conversion_date
+21:05:10.899390 [debug] [Thread-5  ]: Began running node model.prj_dbt.count_converted_time
+21:05:10.899390 [debug] [Thread-6  ]: Began running node model.prj_dbt.count_converted_time_source
+21:05:10.900390 [info ] [Thread-5  ]: 4 of 5 START view model CUSTOMERS.count_converted_time ......................... [RUN]
+21:05:10.900390 [info ] [Thread-6  ]: 5 of 5 START view model CUSTOMERS.count_converted_time_source .................. [RUN]
+21:05:10.901387 [debug] [Thread-5  ]: Acquiring new snowflake connection "model.prj_dbt.count_converted_time"
+21:05:10.902384 [debug] [Thread-5  ]: Began compiling node model.prj_dbt.count_converted_time
+21:05:10.902384 [debug] [Thread-6  ]: Acquiring new snowflake connection "model.prj_dbt.count_converted_time_source"
+21:05:10.902384 [debug] [Thread-5  ]: Compiling model.prj_dbt.count_converted_time
+21:05:10.903373 [debug] [Thread-6  ]: Began compiling node model.prj_dbt.count_converted_time_source
+21:05:10.904379 [debug] [Thread-6  ]: Compiling model.prj_dbt.count_converted_time_source
+21:05:10.907345 [debug] [Thread-5  ]: Writing injected SQL for node "model.prj_dbt.count_converted_time"
+21:05:10.911336 [debug] [Thread-6  ]: Writing injected SQL for node "model.prj_dbt.count_converted_time_source"
+21:05:10.914327 [debug] [Thread-5  ]: finished collecting timing info
+21:05:10.914327 [debug] [Thread-5  ]: Began executing node model.prj_dbt.count_converted_time
+21:05:10.915324 [debug] [Thread-6  ]: finished collecting timing info
+21:05:10.922305 [debug] [Thread-5  ]: Writing runtime SQL for node "model.prj_dbt.count_converted_time"
+21:05:10.923303 [debug] [Thread-6  ]: Began executing node model.prj_dbt.count_converted_time_source
+21:05:10.929289 [debug] [Thread-6  ]: Writing runtime SQL for node "model.prj_dbt.count_converted_time_source"
+21:05:10.931282 [debug] [Thread-5  ]: Using snowflake connection "model.prj_dbt.count_converted_time"
+21:05:10.931282 [debug] [Thread-5  ]: On model.prj_dbt.count_converted_time: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "node_id": "model.prj_dbt.count_converted_time"} */
+
+  create or replace  view FLEETIO_DBT.CUSTOMERS.count_converted_time
+  
+   as (
+    --
+
+select * from FLEETIO_DBT.CUSTOMERS.stg_conversion_date
+  );
+21:05:10.932279 [debug] [Thread-5  ]: Opening a new connection, currently in state init
+21:05:10.933276 [debug] [Thread-6  ]: Using snowflake connection "model.prj_dbt.count_converted_time_source"
+21:05:10.936268 [debug] [Thread-6  ]: On model.prj_dbt.count_converted_time_source: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "prj_dbt", "target_name": "dev", "node_id": "model.prj_dbt.count_converted_time_source"} */
+
+  create or replace  view FLEETIO_DBT.CUSTOMERS.count_converted_time_source
+  
+   as (
+    --
+
+with leads as (
+
+    select * from FLEETIO_DBT.CUSTOMERS.stg_leads
+
+),
+
+conversion_date as (
+
+    select * from FLEETIO_DBT.CUSTOMERS.stg_conversion_date
+
+)
+
+select
+    *
+    leads.source,
+from conversion_date
+left join leads
+    using (lead_id)
+  );
+21:05:10.938265 [debug] [Thread-6  ]: Opening a new connection, currently in state init
+21:05:11.965182 [debug] [Thread-5  ]: SQL status: SUCCESS 1 in 1.03 seconds
+21:05:11.969175 [debug] [Thread-5  ]: finished collecting timing info
+21:05:11.969175 [debug] [Thread-5  ]: On model.prj_dbt.count_converted_time: Close
+21:05:12.011456 [debug] [Thread-6  ]: Snowflake adapter: Snowflake query id: 01a41207-0c03-01e9-0000-00024a1e920d
+21:05:12.012449 [debug] [Thread-6  ]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 20 at position 4 unexpected 'leads'.
+21:05:12.012449 [debug] [Thread-6  ]: finished collecting timing info
+21:05:12.013445 [debug] [Thread-6  ]: On model.prj_dbt.count_converted_time_source: Close
+21:05:12.096922 [debug] [Thread-5  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349959790>]}
+21:05:12.097949 [info ] [Thread-5  ]: 4 of 5 OK created view model CUSTOMERS.count_converted_time .................... [[32mSUCCESS 1[0m in 1.20s]
+21:05:12.098913 [debug] [Thread-5  ]: Finished running node model.prj_dbt.count_converted_time
+21:05:12.118082 [debug] [Thread-6  ]: Database Error in model count_converted_time_source (models\count_converted_time_source.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 20 at position 4 unexpected 'leads'.
+  compiled SQL at target\run\prj_dbt\models\count_converted_time_source.sql
+21:05:12.119071 [debug] [Thread-6  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09869af9-8a1f-4cc2-94b5-5cb2a3d9a8b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3499BCF10>]}
+21:05:12.119071 [error] [Thread-6  ]: 5 of 5 ERROR creating view model CUSTOMERS.count_converted_time_source ......... [[31mERROR[0m in 1.22s]
+21:05:12.120068 [debug] [Thread-6  ]: Finished running node model.prj_dbt.count_converted_time_source
+21:05:12.123060 [debug] [MainThread]: Acquiring new snowflake connection "master"
+21:05:12.124056 [info ] [MainThread]: 
+21:05:12.124056 [info ] [MainThread]: Finished running 5 view models in 4.51s.
+21:05:12.125054 [debug] [MainThread]: Connection 'master' was properly closed.
+21:05:12.126052 [debug] [MainThread]: Connection 'list_FLEETIO_DBT' was properly closed.
+21:05:12.126052 [debug] [MainThread]: Connection 'list_FLEETIO_DBT_CUSTOMERS' was properly closed.
+21:05:12.126052 [debug] [MainThread]: Connection 'model.prj_dbt.stg_conversion_date' was properly closed.
+21:05:12.127079 [debug] [MainThread]: Connection 'model.prj_dbt.stg_leads' was properly closed.
+21:05:12.127284 [debug] [MainThread]: Connection 'model.prj_dbt.stg_opportunities' was properly closed.
+21:05:12.127284 [debug] [MainThread]: Connection 'model.prj_dbt.count_converted_time' was properly closed.
+21:05:12.127284 [debug] [MainThread]: Connection 'model.prj_dbt.count_converted_time_source' was properly closed.
+21:05:12.136378 [info ] [MainThread]: 
+21:05:12.136378 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+21:05:12.137377 [info ] [MainThread]: 
+21:05:12.138374 [error] [MainThread]: [33mDatabase Error in model count_converted_time_source (models\count_converted_time_source.sql)[0m
+21:05:12.140367 [error] [MainThread]:   001003 (42000): SQL compilation error:
+21:05:12.141364 [error] [MainThread]:   syntax error line 20 at position 4 unexpected 'leads'.
+21:05:12.141364 [error] [MainThread]:   compiled SQL at target\run\prj_dbt\models\count_converted_time_source.sql
+21:05:12.143360 [info ] [MainThread]: 
+21:05:12.144356 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=1 SKIP=0 TOTAL=5
+21:05:12.145353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3499C87F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D34970BF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D349694370>]}
+
+
+============================== 2022-05-06 14:21:40.673344 | 93caabf4-1191-4831-bd4f-b50360cfc18e ==============================
+14:21:40.673344 [info ] [MainThread]: Running with dbt=1.1.0
+14:21:40.674352 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\ssantavicca3\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'which': 'test', 'rpc_method': 'test'}
+14:21:40.675340 [debug] [MainThread]: Tracking: tracking
+14:21:40.676338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343758B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343758BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343758C10>]}
+14:21:40.787945 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+14:21:40.787945 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+14:21:40.788931 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.prj_dbt.example
+
+14:21:40.801896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '93caabf4-1191-4831-bd4f-b50360cfc18e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343847AF0>]}
+14:21:40.812867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '93caabf4-1191-4831-bd4f-b50360cfc18e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343797C40>]}
+14:21:40.813865 [info ] [MainThread]: Found 5 models, 0 tests, 0 snapshots, 0 analyses, 181 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics
+14:21:40.814862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93caabf4-1191-4831-bd4f-b50360cfc18e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343797B20>]}
+14:21:40.817855 [info ] [MainThread]: 
+14:21:40.818853 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+14:21:40.829821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343743850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343743C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028343797490>]}

@@ -60,3 +60,6 @@
 2022-05-05 20:05:10.852144 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
 2022-05-05 20:06:19.342952 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
 2022-05-05 20:10:04.394150 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-05 21:05:06.218090 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+2022-05-05 21:05:08.439120 (ThreadPoolExecutor-0_0): unclosed <socket.socket fd=2788, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.176', 49880), raddr=('52.184.166.117', 443)>
+2022-05-06 14:21:38.822735 (MainThread): the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses

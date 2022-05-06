@@ -1,7 +1,7 @@
 -- BASELINE TABLE
 
 select
-    id,
+    id as lead_id,
     case
         when converted_at is null then 0
         else 1
