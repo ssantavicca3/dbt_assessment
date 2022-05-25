@@ -20,8 +20,8 @@ In order to efficiently analyze data we utilize dbt to model the data we expose 
     - What are some possible drivers of closed/won opportunities?
 4. Create `schema.yml` file(s) for your models to document them.
 5. Be prepared to discuss the types of approaches you would use to visualize data in a business intelligence tool based on these models.
-6. Publish your repo to GitHub and make it public, or share it with @jmhollinger and @chrishumphries.
-7. When complete, please email a link to the repo to jhollinger@fleetio.com and chumphries@fleetio.com.
+6. Publish your repo to GitHub and make it public, or share it with [REDACTED] and [REDACTED].
+7. When complete, please email a link to the repo to [REDACTED] and [REDACTED].
 
 ### Notes
 
